@@ -1386,6 +1386,50 @@ img {
     }
 }
 
+    @media (max-width: 768px) {
+    .nav-list {
+        position: fixed;
+        top: 0;
+        right: -100%;
+        width: 80%;
+        max-width: 400px;
+        height: 100vh;
+        background-color: var(--white);
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        transition: var(--transition);
+        z-index: 1000;
+    }
+
+    [data-theme="dark"] .nav-list {
+        background-color: var(--dark-color);
+    }
+
+    .nav-list.active {
+        right: 0;
+    }
+
+    .nav-link {
+        padding: 15px;
+        font-size: 1.2rem;
+    }
+
+    .theme-toggle {
+        margin-left: 0;
+        margin-top: 20px;
+    }
+
+    .hamburger {
+        display: block;
+    }
+
+    .profile-img {
+        width: 250px;
+        height: 250px;
+    }
+}
 
 
 }
+
