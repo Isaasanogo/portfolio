@@ -1112,6 +1112,7 @@ img {
     .hero .container {
         flex-direction: column;
         text-align: center;
+        margin-top: 50px;
     }
 
     .hero-content {
@@ -1384,6 +1385,7 @@ img {
         font-size: 1.2rem;
     }
 }
+
 
 
 }
