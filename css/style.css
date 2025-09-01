@@ -1134,6 +1134,10 @@ img {
 }
 
 @media (max-width: 768px) {
+    .hero .container {
+        margin-top: 50px;
+    }
+
     .section {
         padding: 80px 0;
     }
@@ -1438,6 +1442,7 @@ img {
 
 
 }
+
 
 
 
