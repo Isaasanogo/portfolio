@@ -1394,8 +1394,7 @@ img {
     @media (max-width: 768px) {
 
         .hero .container {
-       
-        margin-top: 50px;
+        margin-top: 100px;
     }
     .nav-list {
         position: fixed;
@@ -1442,6 +1441,7 @@ img {
 
 
 }
+
 
 
 
