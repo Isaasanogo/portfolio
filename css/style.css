@@ -1387,6 +1387,11 @@ img {
 }
 
     @media (max-width: 768px) {
+
+        .hero .container {
+       
+        margin-top: 50px;
+    }
     .nav-list {
         position: fixed;
         top: 0;
@@ -1432,4 +1437,5 @@ img {
 
 
 }
+
 
