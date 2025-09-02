@@ -1132,6 +1132,7 @@ img {
 
     .about-content {
         flex-direction: column;
+        margin-top: 50px;
     }
 
     .contact-content {
@@ -1299,6 +1300,7 @@ img {
     .about-content {
         flex-direction: column;
         gap: 30px;
+        margin-top: 50px;
     }
 
     .about-info {
@@ -1464,6 +1466,7 @@ img {
 
 
 }
+
 
 
 
